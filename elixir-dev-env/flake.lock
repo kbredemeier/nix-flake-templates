@@ -1,0 +1,97 @@
+{
+  "nodes": {
+    "elixir": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1642067477,
+        "narHash": "sha256-qv85aDP3RPCa1YBo45ykWRRZNanL6brNKDMPu9SZdbQ=",
+        "owner": "elixir-lang",
+        "repo": "elixir",
+        "rev": "9ad182986cf5d3b8eb45625b41742c380d45391f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "elixir-lang",
+        "ref": "v1.13.2",
+        "repo": "elixir",
+        "type": "github"
+      }
+    },
+    "elixir_ls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638670606,
+        "narHash": "sha256-dHHmA9TAM5YEfbUoujgy1XLzdh7zGWhR9SsFoTnKX48=",
+        "owner": "elixir-lsp",
+        "repo": "elixir-ls",
+        "rev": "f9e3a969a32212482a7625deec9e0fd0f533f991",
+        "type": "github"
+      },
+      "original": {
+        "owner": "elixir-lsp",
+        "ref": "v0.9.0",
+        "repo": "elixir-ls",
+        "type": "github"
+      }
+    },
+    "erlang": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1642840908,
+        "narHash": "sha256-ZU4Ktw4vZF1XNPs8KzjihpqeJh/CpvxH9Lo8yh4wlPE=",
+        "owner": "erlang",
+        "repo": "otp",
+        "rev": "7bf7f01683acf9b8f09bd8c7331854a9abc17f7d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "erlang",
+        "ref": "OTP-24.2.1",
+        "repo": "otp",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1642700792,
+        "narHash": "sha256-XqHrk7hFb+zBvRg6Ghl+AZDq03ov6OshJLiSWOoX5es=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "846b2ae0fc4cc943637d3d1def4454213e203cba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1643289964,
+        "narHash": "sha256-84hFPJkbFVFpdhmrN+RwNIQ/CRSj/e78rZ4iUG8d2c0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3445b70e5bdda6ec5bfdd43d61510ca2cbb5936c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "elixir": "elixir",
+        "elixir_ls": "elixir_ls",
+        "erlang": "erlang",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
